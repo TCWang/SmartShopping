@@ -1,0 +1,89 @@
+﻿[
+	{
+		"No": "1",
+		"brand": "Johnson 喬山",
+		"figure": "fig/SST-4111-Message-Fujiiryoki-01.jpg",
+		"website": "https://www.fujiiryoki.com/cn/products/jp-2000/",
+		"product": "JP-2000",
+		"price": "$258,000",
+		"weight": "78.0 ",
+		"maxdimension": "200.0x88.0x74.0",
+		"category": "按摩椅"
+	},
+	{
+		"No": "2",
+		"brand": "Osim 傲勝",
+		"figure": "fig/SST-4112-Message-Osim-01.jpg",
+		"website": "https://www.osim.com.tw/ulove2-massage-chair-tw.html",
+		"product": "4手天王",
+		"price": "$146,800",
+		"weight": "96.0 ",
+		"maxdimension": "180.0x72.0x90.0",
+		"category": "按摩椅"
+	},
+	{
+		"No": "3",
+		"brand": "Takasima 高島",
+		"figure": "fig/SST-4113-Message-Takasima-01.jpg",
+		"website": "https://www.takasima.com/product_d.php?lang=tw&tb=1&id=296",
+		"product": "星空椅2.0",
+		"price": "$158,000",
+		"weight": "152.0 ",
+		"maxdimension": "186.0x85.5x85.5",
+		"category": "按摩椅"
+	},
+	{
+		"No": "4",
+		"brand": "Tokuyo 督洋",
+		"figure": "fig/SST-4114-Message-Tokuyo-01.jpg",
+		"website": "https://www.tokuyo.com.tw/",
+		"product": "玩美椅",
+		"price": "$99,800",
+		"maxdimension": "174.0x77.0x120.0",
+		"category": "按摩椅"
+	},
+	{
+		"No": "5",
+		"brand": "BH 萊昂",
+		"figure": "fig/SST-4115-Message-BH-01.jpg",
+		"website": "https://www.i-bh.com.tw/products/products_detail.php?cID=20&uID=8&Key=496",
+		"product": "MB-1220",
+		"price": "$79,999",
+		"weight": "105.0 ",
+		"maxdimension": "185.0x80.0x90.0",
+		"category": "按摩椅"
+	},
+	{
+		"No": "6",
+		"brand": "Hueiyeh 輝業",
+		"figure": "fig/SST-4116-Message-Hueiyeh-01.jpg",
+		"website": "https://www.massage-hy.com.tw/",
+		"product": "新頭等艙",
+		"price": "$146,800",
+		"weight": "80.0 ",
+		"maxdimension": "160.0x75.0x84.0",
+		"category": "按摩椅"
+	},
+	{
+		"No": "7",
+		"brand": "Fuji 富士",
+		"figure": "fig/SST-4117-Message-Fuji-01.jpg",
+		"website": "https://www.efuji.com.tw/products/fuji-%E6%91%A9%E6%96%B9%E6%A4%85-fg-8500",
+		"product": "魔方椅",
+		"price": "$99,000",
+		"weight": "94.0 ",
+		"maxdimension": "164.0x75.0x96.0",
+		"category": "按摩椅"
+	},
+	{
+		"No": "8",
+		"brand": "Ogawa 奧佳華",
+		"figure": "fig/SST-4118-Message-Ogawa-01.jpg",
+		"website": "http://www.ogawaworld.com.tw/Products?CategoryId=21",
+		"product": "大師椅",
+		"price": "$148,000",
+		"weight": "108.0 ",
+		"maxdimension": "190.0x78.0x103.0",
+		"category": "按摩椅"
+	}
+]

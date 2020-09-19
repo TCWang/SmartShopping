@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="../css/mycss.css">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Add Title here</title>
+  <meta name="description" content="AiCity Community WebSite 2019">
+  <!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user">用戶登入</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-110-MyInformation.html">個人資訊</a>
+              <a class="dropdown-item" href="../SST-120-SignIn.html">登入註冊</a>
+              <a class="dropdown-item" href="../SST-130-Message.html">用戶留言</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-atom">電子家電</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-210-Thermomix.html">聰明料理機</a>
+              <a class="dropdown-item" href="../SST-210-Thermomix.html">多功能烤箱</a>
+              <a class="dropdown-item" href="../SST-230-GasFryer.html">氣炸鍋</a>
+              <a class="dropdown-item" href="../SST-240-CoffeeMachine.html">咖啡沖泡</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-broadcast-tower">通訊網路</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-310-BroadbandNetwork.html">寬頻網路</a>
+              <a class="dropdown-item" href="../SST-320-MObileCommunication.html">行動通訊</a>
+              <a class="dropdown-item" href="../SST-330-VideoAudio.html">影音視頻</a>
+              <a class="dropdown-item" href="../SST-340-SmartHome.html">智慧家庭</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-shopping-cart">居家生活</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-410-SportMassage.html">運動按摩</a>
+              <a class="dropdown-item" href="../SST-420-HealthCare.html">健康醫療</a>
+              <a class="dropdown-item" href="../SST-430-KitchenWare.html">廚房用品</a>
+              <a class="dropdown-item" href="../SST-440-BeddingBathroom.html">寢具衛浴</a>
+			  <a class="dropdown-item" href="../SST-450-ClothesShoes.html">衣服鞋箱</a>
+            </div>
+          </li>
+		  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-money-check-alt">流行精品</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-510-Cosmetic.html">化妝洗護</a>
+
+            </div>
+          </li>
+
+        </ul>
+        <form class="form-inline my-1 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Jumbotron-->
+
+    <!-- TemplateBeginEditable name="jumbotron description " -->
+	<div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+        <div class="container">
+            <div class="bg-lighter p-1" style="width:300px">
+              <h4 class="text-white" >Insert jumbotron title here</h4>
+              <p class="lead text-white">Insert jumbotron description here</p>
+            </div>
+		</div>
+    </div>
+    <!-- TemplateEndEditable --> 
+
+
+	<!-- Web Page Title -->
+	<!-- TemplateBeginEditable name="main_heading" -->
+	<h2 id="main_heading"> Insert main heading here </h2>
+	<!-- TemplateEndEditable -->
+	  
+	<!-- Vue實例的掛載點 -->
+    <!-- TemplateBeginEditable name="main_content" -->
+    <article> Instert content here 
+	  
+	</article>  
+</div>
+    <!-- TemplateEndEditable -->
+	
+	<footer id="main_footer">
+		<p id="p-footer">
+				Update footer here  &copy; TCW Smart Lift
+		</p>
+
+	</footer>
+	
+	<!-- Vue 的 CDN -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <!-- Bootstrap 4 JavaScript 的 CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <!-- Axios 的 CDN -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- TemplateBeginEditable name="vue control program" -->
+    <div>
+      <!-- Vue實例的程式碼 -->
+    </div>
+    <!-- TemplateEndEditable -->
+</body>
+
+</html>
