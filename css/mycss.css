@@ -8,6 +8,12 @@ body {
         "Helvetica Neue", sans-serif; //備援字體
     */
 }
+section #quote {
+    padding-left: 10px;
+}
+#app #color-highlight {
+    color: #0000CC;
+}
 #app footer {
 }
 article {
