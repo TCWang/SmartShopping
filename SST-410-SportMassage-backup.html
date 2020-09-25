@@ -124,7 +124,7 @@
 	<!-- InstanceEndEditable -->
 
 	<!-- InstanceBeginEditable name="main_editable" -->
-	<div  class="container-fluid ">
+	<div id="app" class="container-fluid ">
 		<div class="row">
 			<h1 id="Header1">按摩椅與運動設備</h1>
 		</div>
@@ -162,7 +162,7 @@
 								<h5>按摩椅廠牌匯總</h5>
 								<p>
 									<!-- Vue實例的掛載點 -->
-								<div class="container-fluid" id="app1">
+								<div class="container-fluid">
 									<div class="row">
 										<div class="container-fluid" id="app">
 											<div class="alert alert-info" role="alert">
@@ -288,59 +288,12 @@
 								</ul>
 							</p>
 							<p>
-								眼部按摩器匯總<br>
-								<!-- Vue實例的掛載點 -->
-								<div class="container-fluid" id="app2">
-									<div class="row">
-										<div class="container-fluid">
-											<div class="alert alert-info" role="alert">
-
-												<div class="row">
-													<div class="col">
-														<div class="form-group">
-															<select class="form-control" v-model='section'
-																id="exampleFormControlSelect1">
-																<option v-for="section in sections">{{ section }}
-																</option>
-															</select>
-														</div>
-													</div>
-													<div class="col-6">
-														<h5 class="text-center">{{ section | formatted}}</h5>
-													</div>
-
-												</div>
-											</div>
-											<p id="color-highlight">注意：點擊下面圖片,進入廠商網站</p>
-											<div class="row" v-for="posts in results">
-												<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
-													<div class="card">
-														<div class="card-header">
-															{{post.Brand}} - NT {{ post.Price }}
-														</div>
-														<div class="card-body">
-															<p class="card-text">
-																<a v-bind:href="post.WebSite">
-																	<img v-bind:src="post.figure" class="img-fluid"
-																		style="width:320px">
-																</a>
-															</p>
-															<dl>
-																<dd>{{post.Brand}} - {{post.Model}} </dd>
-																<dd>{{post.Product}}</dd>
-																<dd>{{post.Feature}}</dd>
-																<dd>{{post.Tempearture}}</dd>
-																<dd>{{post.Message}} </dd>
-																<dd>音響：{{post.Music}} </dd>
-															</dl>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
+								電源總類：分別為電池，充電電池和插電使用三種，也有兩種兼顧的產品。主要利用 USB 電源充電的類型將會是主要形式。
+								
+							</p>
+							<p>
+								眼部按摩器匯總：
+								
 							</p>
 						</section>
 
@@ -394,9 +347,8 @@
 		<script>
 			const posts = []
 			const SECTIONS_TW = "按摩椅, 按摩沙發"
-			const SECTIONS_EY = "眼部按摩器, "
 			new Vue({
-				el: '#app1',
+				el: '#app',
 				data: {
 					posts,
 					// results: [],
@@ -424,42 +376,6 @@
 
 				mounted() {
 					axios.get('file/SST-4181-MessageSummary.json').then((response) => {
-						this.posts = response.data;
-						this.getPostsByCategory(this.section)
-					}).catch(error => { console.log(error); });
-				},
-
-			});
-
-			new Vue({
-				el: '#app2',
-				data: {
-					posts,
-					// results: [],
-					sections: SECTIONS_EY.split(', '),
-					section: '眼部按摩器'
-				},
-				filter: {
-					formatted(value) {
-						return ' 以下是 ${value} 類別的貼文 '
-					}
-				},
-
-				computed: {
-					results() {
-						let posts = this.posts
-							.slice()
-							.filter(post => post.Category === this.section)
-						let i, j, chunkedArray = [], chunk = 40;
-						for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
-							chunkedArray[j] = posts.slice(i, i + chunk);
-						}
-						return chunkedArray
-					}
-				},
-
-				mounted() {
-					axios.get('file/SST-4182-EyeMassageSummary.json').then((response) => {
 						this.posts = response.data;
 						this.getPostsByCategory(this.section)
 					}).catch(error => { console.log(error); });
