@@ -150,6 +150,12 @@ div.fixed {
 	background-position: center center;
 	min-height: 300px
 }
+.jumbotron-bg42 {
+	background-image: url("../fig/SST-4201-HealthCareBanner.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
 .bg-lighter {
 		background-color: rgba(0,0,0,.4)
 }
