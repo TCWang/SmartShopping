@@ -29,6 +29,11 @@ footer {
 .row #Header1 {
     padding-left: 10px;
 }
+section p #FloatL {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 @media (max-width:543px) {
     h1, h2 {font-size:1.0rem;}
