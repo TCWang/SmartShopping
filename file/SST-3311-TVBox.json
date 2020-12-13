@@ -1,0 +1,131 @@
+﻿[
+        {
+            "No": "01",
+            "Brand": "Rocktek雷爵 ",
+            "Model": "G1",
+            "Product": "最新ATV主力機，",
+            "Feature": "支援Goolge 語音助理＆Chromecast 投屏<br>\r\n中央處理器：4核心,64位元，A53 <br>\r\n記憶體：2GB DDR3, 16GB eMMC <br>\r\n遙控器：藍芽語音紅外線學習遙控器",
+            "Price": "$4,680",
+            "Description": "Rocktek雷爵推出的這款電視盒，支援語音控制操作，想看哪一台、什麼節目，或是追哪一部劇，不用再手動操作，只要一聲令下，系統就會幫你導向你想找的任何內容。由於這項語音控制功能具有一定的容錯性，即使因為記錯劇名或是發音不清楚，而導致輸入的語音指令有誤，只要關鍵字正確，還是能為你找到你想看的節目或戲劇。",
+            "figure": "fig/SST-3311-Rocktek-01.png",
+            "Category": "TVBox",
+            "WebSite": "https://www.rocktek.com.tw/"
+        },
+        {
+            "No": "02",
+            "Brand": "Rocktek雷爵 ",
+            "Model": "X3 Pro",
+            "Product": "4核心 越級旗艦機",
+            "Feature": "2GB+32GB 大容量最愛，支援無線語音遙控<br>\r\n中央處理器：4核心,64位元，A53 <br>\r\n記憶體：2GB DDR4, 32GB eMMC <br>\r\n遙控器：無線語音紅外線學習遙控器",
+            "Price": "$3,999",
+            "figure": "fig/SST-3311-Rocktek-02.png",
+            "Category": "TVBox"
+        },
+        {
+            "No": "03",
+            "Brand": "Rocktek雷爵 ",
+            "Model": "X3",
+            "Product": "4核心 次世代機",
+            "Feature": "4K HDR高畫質播放器<br>\r\n中央處理器：4核心,64位元，A53 <br>\r\n記憶體：1GB DDR4, 16GB eMMC <br>\r\n遙控器：無線語音紅外線學習遙控器",
+            "Price": "$2,990",
+            "figure": "fig/SST-3311-Rocktek-03.png",
+            "Category": "TVBox"
+        },
+        {
+            "No": "04",
+            "Brand": "Rocktek雷爵 ",
+            "Model": "X5",
+            "Product": "8核心 旗艦機皇",
+            "Feature": "8核心高效能，專業級遊戲首選<br>\r\n中央處理器：4核心,64位元，A53 <br>\r\n記憶體：2GB DDR3, 16GB eMMC <br>\r\n遙控器：無限語音紅外線學習遙控器",
+            "Price": "$4,390",
+            "figure": "fig/SST-3311-Rocktek-04.jpg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "05",
+            "Brand": "Rocktek雷爵 ",
+            "Model": "SB02+SW02+MC01",
+            "Product": "RockTek SB02 雷爵藍牙無線聲霸卡拉OK組合",
+            "Feature": " 含SW02獨立重低音與MC01無線麥克風",
+            "Price": "$14,800",
+            "figure": "fig/SST-3311-Rocktek-05.jpg",
+            "Category": "卡拉OK",
+            "WebSite": "https://www.rocktek.com.tw/products/rocktek-ktv"
+        },
+        {
+            "No": "06",
+            "Brand": "EVBOX 易播",
+            "Model": "5MAX",
+            "Product": "語音機皇",
+            "Price": "$4,380",
+            "Description": "這一款電視盒就如同它所打出的商品口號「影視易播、歡樂易享」，在播放影片、節目等，都能順暢不卡卡，切換電視頻道的速度也相當快速，使用操作上非常穩定，可以說是這一款電視盒最大的優勢。雖然它的知名度並沒有其他廠牌來得高，不過在效能上，絕對也是不輸給其他知名廠牌。",
+            "figure": "fig/SST-3311-Evbox-01.jpg",
+            "Category": "TVBox",
+            "WebSite": "https://www.evbox.tw/category/%E6%98%93%E6%92%AD%E9%9B%BB%E8%A6%96%E7%9B%92"
+        },
+        {
+            "No": "07",
+            "Brand": "EVBOX 易播",
+            "Model": "5PRO",
+            "Product": "語音款",
+            "Price": "$3,680",
+            "figure": "fig/SST-3311-Evbox-02.jpg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "08",
+            "Brand": "EVBOX 易播",
+            "Model": "PLUS",
+            "Product": "易播機皇華人台灣版",
+            "Price": "$3,780",
+            "figure": "fig/SST-3311-Evbox-03.jpg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "09",
+            "Brand": "EVBOX 易播",
+            "Model": "SMART",
+            "Product": "華人台灣版",
+            "Price": "$2,980",
+            "figure": "fig/SST-3311-Evbox-04.jpg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "10",
+            "Brand": "安博科技",
+            "Model": "UBOX8",
+            "Product": "安博盒子 UBOX8",
+            "Feature": "中央處理器：64位元四核 H616處理器 <br>\r\n記憶體：4+64GB <br>\r\n畫質：6K 高清 HDR畫質 <br>\r\n語音: AI 智能語音系統 <br>\r\n作業系統; Android 10.0 ",
+            "Price": "$4,380",
+            "figure": "fig/SST-3311-Unblock-01.jpeg",
+            "Category": "TVBox",
+            "WebSite": "http://www.unblocktech.com/upros/"
+        },
+        {
+            "No": "11",
+            "Brand": "安博科技",
+            "Model": "PROS",
+            "Product": "安博盒子 PROS",
+            "Feature": "中央處理器：64位元四核 處理器 <br>\r\n記憶體：2+32GB <br>\r\n作業系統; Android 7.0 ",
+            "Price": "$3,780",
+            "figure": "fig/SST-3311-Unblock-02.jpeg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "12",
+            "Brand": "安博科技",
+            "Model": "PRO2",
+            "Product": "安博盒子 PRO2",
+            "Feature": "中央處理器：64位元四核 CPU 八核GPU <br>\r\n記憶體：1+16GB <br>\r\n畫質：6K 高清 HDR畫質 <br>\r\n作業系統; Android 7.0 ",
+            "Price": "$3,180",
+            "figure": "fig/SST-3311-Unblock-03.jpeg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "13",
+            "Brand": "安博科技",
+            "Product": "周董麥克風",
+            "Price": "$3,680",
+            "Category": "卡拉OK"
+        }
+    ]

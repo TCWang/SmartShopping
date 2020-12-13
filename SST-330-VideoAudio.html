@@ -18,8 +18,8 @@
   <!-- My CSS file -->
   <link rel="stylesheet" href="css/mycss.css">
   <!-- InstanceBeginEditable name="doctitle" -->
-  <title>Add Title here</title>
-  <meta name="description" content="AiCity Community WebSite 2019">
+  <title>智慧採購 - 影音視頻</title>
+  <meta name="description" content="Smart Shopping - Video ">
   <!-- InstanceEndEditable -->
 
 <!-- InstanceBeginEditable name="head" -->
@@ -109,38 +109,121 @@
     <!-- Jumbotron-->
 
     <!-- InstanceBeginEditable name="jumbotron description " -->
-	<div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+	<div class="jumbotron jumbotron-fluid jumbotron-bg33 d-flex align-items-end">
         <div class="container">
             <div class="bg-lighter p-1" style="width:300px">
-              <h4 class="text-white" >Insert jumbotron title here</h4>
-              <p class="lead text-white">Insert jumbotron description here</p>
+              <h4 class="text-white" >家庭影音設備選購</h4>
+              <p class="lead text-white">建立美好一天的核心價值</p>
             </div>
 		</div>
     </div>
     <!-- InstanceEndEditable --> 
 
     <!-- InstanceBeginEditable name="main_editable" -->
-    <div class="container-fluid">
-		<h1>智慧購物網站</h1>
-	  	<div class="row">
+	<div  class="container-fluid ">
+		<div class="row">
+			<h1 id="Header1">家庭影音設備</h1>
+		</div>
+		<div class="row mx-1 ">
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2">
+				<div class="list-group" id="MenuList" role="tablist">
+					<a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">電視盒指南</a>
+					<a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">電視盒匯總</a>
+					<a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">電視選購</a>
+					<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">音響設備</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-8 col-md-9 col-lg-10  border border-secondary rounded">
+				<div class="tab-content">
 
-		  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-			<aside class="sidebar1">
-			  <p>會員登入</p>
-		    </aside>
-		  </div>
-		  <div class="col-12 col-sm-8 col-md-9 col-lg-10">
-			<section>
+					<div class="tab-pane active" id="Menu-B1" role="tabpanel">
+						<!-- Menu B1 -->
+						<h3>電視盒指南 </h3>
+						<section>
+					
+						
+						</section>
+					</div>
+					<div class="tab-pane" id="Menu-B2" role="tabpanel">
+						<!-- Menu B2 -->
+						<h3>電視盒匯總</h3>
+						<section>
+							<div class="container-fluid" id="app1">
+								<div class="row">
+									<div class="container-fluid" id="app">
+										<div class="alert alert-info" role="alert">
 
-			  <article>
-				<h2>Insert sub heading here</h2>
-				<p> Insert paragraph here </p>
-			  </article>
-		    </section>
-		  </div>
+											<div class="row">
+												<div class="col">
+													<div class="form-group">
+														<select class="form-control" v-model='section'
+															id="exampleFormControlSelect1">
+															<option v-for="section in sections">{{ section }}
+															</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-6">
+													<h5 class="text-center"> 選擇類別 </h5>
+												</div>
 
-	  	</div>
-    </div>
+											</div>
+										</div>
+										<p id="color-highlight">注意：點擊下面圖片,進入廠商網站</p>
+										<div class="row" v-for="posts in results">
+											<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">
+														{{ post.Brand }} - {{post.Model }}
+													</div>
+													<div class="card-body">
+														<p class="card-text">
+															<img v-bind:src="post.figure" class="img-fluid" style="height:200px">
+
+														</p>
+														<dl>
+															<a v-bind:href="post.WebSite">
+																{{post.Product}} - {{post.Model}} 
+															</a>															
+															<dd></dd>
+															<dd>價格：{{post.Price}} </dd>
+														</dl>
+														特性：<br>
+														<div v-html="post.Feature"></div> <br>
+														說明：<br>
+														<div v-html="post.Description"></div>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>								
+						</section>
+
+
+					</div>
+					<div class="tab-pane" id="Menu-B3" role="tabpanel">
+						<!-- Menu B4 -->
+						<h3>電視選購</h3>
+
+
+					</div>
+					<div class="tab-pane" id="Menu-B4" role="tabpanel">
+						<!-- Menu B4 -->
+						<h3>音響設備</h3>
+
+					</div>
+
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
 
     <!-- InstanceEndEditable -->
     <footer id="main_footer">
@@ -165,9 +248,48 @@
     <!-- Axios 的 CDN -->
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- InstanceBeginEditable name="vue control program" -->
-    <div>
-      <!-- Vue實例的程式碼 -->
-    </div>
+	<script>
+		const posts = []
+		const SECTIONS_TW = "TVBox, 卡拉OK"
+
+		new Vue({
+			el: '#app1',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_TW.split(', '),
+				section: 'TVBox'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('file/SST-3311-TVBox.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+
+	</script>
     <!-- InstanceEndEditable -->
 </body>
 

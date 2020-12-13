@@ -17,11 +17,20 @@ section #quote {
 #app footer {
 }
 article {
-    padding: 0 5px 2px 5px;
-    margin: 0 5px 2px 5px;
+    padding-top: 0;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    margin-top: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 2px;
 }
 #main_heading {
-    padding: 0 5px 2px 5px;
+    padding-top: 0;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-bottom: 0px;
 }
 footer {
     margin-top: 10px;
@@ -101,7 +110,10 @@ section p #FloatL {
     color: #000;
 }
 #main_heading {
-    padding: 0 5px 0 5px;
+    padding-top: 0;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-bottom: 0;
 }
 #app footer p {
     color: #FFF;
@@ -145,6 +157,12 @@ div.fixed {
 }
 .jumbotron-bg2 {
 	background-image: url("../fig/SST-2101-KitchenBannerUnsplash.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg33 {
+	background-image: url("../fig/SST-1011-Banner-06.jpg");
 	background-size: cover;
 	background-position: center center;
 	min-height: 300px
