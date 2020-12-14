@@ -57,6 +57,7 @@
             "Brand": "EVBOX 易播",
             "Model": "5MAX",
             "Product": "語音機皇",
+            "Feature": "中央處理器：64位元四核 ARM Cortex-A53處理器, 8核CPU<br>\r\n記憶體：4+64GB <br>\r\n畫質：6K 高清 HDR畫質 <br>\r\nAi 智能語音系統\r\n作業系統; Android ",
             "Price": "$4,380",
             "Description": "這一款電視盒就如同它所打出的商品口號「影視易播、歡樂易享」，在播放影片、節目等，都能順暢不卡卡，切換電視頻道的速度也相當快速，使用操作上非常穩定，可以說是這一款電視盒最大的優勢。雖然它的知名度並沒有其他廠牌來得高，不過在效能上，絕對也是不輸給其他知名廠牌。",
             "figure": "fig/SST-3311-Evbox-01.jpg",
@@ -68,6 +69,7 @@
             "Brand": "EVBOX 易播",
             "Model": "5PRO",
             "Product": "語音款",
+            "Feature": "中央處理器：64位元四核 ARM Cortex-A53處理器, 8核CPU<br>\r\n記憶體：2+32GB <br>\r\n畫質：6K 高清 HDR畫質 <br>\r\n作業系統; Android ",
             "Price": "$3,680",
             "figure": "fig/SST-3311-Evbox-02.jpg",
             "Category": "TVBox"
@@ -77,6 +79,7 @@
             "Brand": "EVBOX 易播",
             "Model": "PLUS",
             "Product": "易播機皇華人台灣版",
+            "Feature": "中央處理器：64位元四核 ARM Cortex-A53處理器, 8核CPU<br>\r\n記憶體：4GB DDR3+32GB eMMC <br>\r\n畫質：6K 高清 HDR畫質 <br>\r\n作業系統; Android ",
             "Price": "$3,780",
             "figure": "fig/SST-3311-Evbox-03.jpg",
             "Category": "TVBox"
@@ -86,6 +89,7 @@
             "Brand": "EVBOX 易播",
             "Model": "SMART",
             "Product": "華人台灣版",
+            "Feature": "中央處理器：64位元四核 ARM Cortex-A53處理器, 4核CPU<br>\r\n記憶體：1GB DDR3+16GB eMMC <br>\r\n畫質：6K 高清 HDR畫質 <br>\r\n作業系統; Android ",
             "Price": "$2,980",
             "figure": "fig/SST-3311-Evbox-04.jpg",
             "Category": "TVBox"
@@ -127,5 +131,48 @@
             "Product": "周董麥克風",
             "Price": "$3,680",
             "Category": "卡拉OK"
+        },
+        {
+            "No": "14",
+            "Brand": "OVO",
+            "Model": "G700",
+            "Product": "尊爵電視盒 G700",
+            "Feature": "中央處理器：64位元四核 CPU Mali-400MP2 GPU <br>\r\n記憶體：2GB RAM+16GB Flash <br>\r\n畫質：4K x 2K畫質 <br>\r\n作業系統; Android 7.1 ",
+            "Price": "$2,290",
+            "figure": "fig/SST-3311-OVO-01.jpg",
+            "Category": "TVBox",
+            "WebSite": "https://www.ovotv.com/zh-tw/product/details/G700tv36"
+        },
+        {
+            "No": "15",
+            "Brand": "OVO",
+            "Model": "BX-1801",
+            "Product": "口碑電視盒 N1",
+            "Feature": "中央處理器：64位元四核 CPU Mali-400MP2 GPU <br>\r\n記憶體：1GB RAM+8GB Flash <br>\r\n畫質：4K 質 <br>\r\n作業系統; Android 5.1 ",
+            "Price": "$1,780",
+            "figure": "fig/SST-3311-OVO-02.jpg",
+            "Category": "TVBox"
+        },
+        {
+            "No": "16",
+            "Brand": "小米",
+            "Model": "S",
+            "Product": "小米盒子S",
+            "Feature": "中央處理器：64位元, 4核 CPU  3+2核 GPU <br>\r\n記憶體：2GB DDR3 RAM+8GB eMMC Flash <br>\r\n畫質：4KHDR 畫質 <br>\r\n作業系統; Android 8.1 ",
+            "Price": "$1,895",
+            "figure": "fig/SST-3311-Mi-01.jpeg",
+            "Category": "TVBox",
+            "WebSite": "https://www.mi.com/tw/mi-box-s/"
+        },
+        {
+            "No": "17",
+            "Brand": "蘋果",
+            "Model": "HD",
+            "Product": "Apple TV",
+            "Feature": "中央處理器：64 位元架構的 A10X Fusion 晶片<br>\r\n記憶體：32GB RAM+ 64B Flash <br>\r\n畫質：4K HDR <br>\r\n作業系統;  tvOS",
+            "Price": "$4,990",
+            "figure": "fig/SST-3311-AppleTV-01.jpeg",
+            "Category": "TVBox",
+            "WebSite": "https://www.apple.com/tw/tv/"
         }
     ]
