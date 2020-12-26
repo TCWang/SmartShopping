@@ -42,17 +42,6 @@
             "Category": "TVBox"
         },
         {
-            "No": "05",
-            "Brand": "Rocktek雷爵 ",
-            "Model": "SB02+SW02+MC01",
-            "Product": "RockTek SB02 雷爵藍牙無線聲霸卡拉OK組合",
-            "Feature": " 含SW02獨立重低音與MC01無線麥克風",
-            "Price": "$14,800",
-            "figure": "fig/SST-3311-Rocktek-05.jpg",
-            "Category": "卡拉OK",
-            "WebSite": "https://www.rocktek.com.tw/products/rocktek-ktv"
-        },
-        {
             "No": "06",
             "Brand": "EVBOX 易播",
             "Model": "5MAX",
@@ -126,13 +115,6 @@
             "Category": "TVBox"
         },
         {
-            "No": "13",
-            "Brand": "安博科技",
-            "Product": "周董麥克風",
-            "Price": "$3,680",
-            "Category": "卡拉OK"
-        },
-        {
             "No": "14",
             "Brand": "OVO",
             "Model": "G700",
@@ -174,5 +156,134 @@
             "figure": "fig/SST-3311-AppleTV-01.jpeg",
             "Category": "TVBox",
             "WebSite": "https://www.apple.com/tw/tv/"
+        },
+        {
+            "No": "011",
+            "Brand": "RockTek 雷爵",
+            "Model": "RT-SB02, RT-SW02, MC01",
+            "Product": "KTV聲霸家庭劇院",
+            "Price": "$14,900",
+            "figure": "fig/SST-3312-KTV-01.jpeg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.rocktek.com.tw/products/rocktek-ktv"
+        },
+        {
+            "No": "021",
+            "Brand": "Aibo",
+            "Model": "LA101",
+            "Product": "USB家庭劇院 單件式雙聲道立體聲喇叭",
+            "Price": "$899",
+            "figure": "fig/SST-3312-KTV-21.jpg",
+            "Category": "SounderBar",
+            "WebSite": "http://www.aibo.com.tw/m/405-1110-54967,c10077.php?Lang=zh-tw"
+        },
+        {
+            "No": "031",
+            "Brand": "Sansui 山水",
+            "Model": "SSB-200",
+            "Product": "藍芽3D立體聲家庭劇院聲霸音響",
+            "Price": "$1,480",
+            "figure": "fig/SST-3312-KTV-31.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.sansui-taiwan.com/%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2/%E8%97%8D%E8%8A%BD3D%E7%AB%8B%E9%AB%94%E8%81%B2%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E8%81%B2%E9%9C%B8.html"
+        },
+        {
+            "No": "041",
+            "Brand": "Yamaha 山葉",
+            "Model": "YSP 2700 SoundBar",
+            "Product": "家庭劇院無線聲霸",
+            "Price": "$34,115",
+            "figure": "fig/SST-3312-KTV-41.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://tw.yamaha.com/zh/products/audio_visual/sound_bar/index.html"
+        },
+        {
+            "No": "042",
+            "Brand": "Yamaha 山葉",
+            "Model": "ATS-4080",
+            "Product": "單件式無線家庭劇院",
+            "Price": "$18,884",
+            "figure": "fig/SST-3312-KTV-46.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://tw.yamaha.com/zh/products/audio_visual/sound_bar/index.html"
+        },
+        {
+            "No": "051",
+            "Brand": "Redmi 小米",
+            "Model": "Redmi ",
+            "Product": "電視條形音箱 音響喇叭 影音劇院",
+            "Price": "$1,380",
+            "figure": "fig/SST-3312-KTV-51.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.mi.com/tvspeaker"
+        },
+        {
+            "No": "061",
+            "Brand": "Samsung 三星",
+            "Model": "HW-Q950T/ZW",
+            "Product": "9.1.4聲道 藍牙無線後環繞聲霸",
+            "Price": "$59,900",
+            "figure": "fig/SST-3312-KTV-61.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.samsung.com/tw/audio-devices/soundbar/9-1-4-ch-soundbar-dolby-atmos-black-hw-q950t-zw/"
+        },
+        {
+            "No": "071",
+            "Brand": "Dike",
+            "Model": "DSB310-LITE",
+            "Product": "單件式重低音環繞家庭劇院",
+            "Price": "$3,690",
+            "figure": "fig/SST-3312-KTV-71.jpg",
+            "Category": "SounderBar",
+            "WebSite": "http://www.dike.com.tw/%E5%8A%87%E9%99%A2%E6%8F%9A%E8%81%B2%E5%99%A8/"
+        },
+        {
+            "No": "081",
+            "Brand": "Philips 飛利浦",
+            "Model": "Fidelio B8",
+            "Product": "單件式環繞音響",
+            "Price": "$17,778",
+            "figure": "fig/SST-3312-KTV-81.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.philips.com.hk/c-p/B8_12/fidelio-skyquake-soundbar"
+        },
+        {
+            "No": "091",
+            "Brand": "BOSE",
+            "Model": "Bose Solo 5",
+            "Product": "電視音響系統",
+            "Price": "$11,000",
+            "figure": "fig/SST-3312-KTV-91.png",
+            "Category": "SounderBar",
+            "WebSite": "https://www.bose.tw/zh_tw/products/speakers/home_theater/bose-solo-5-tv-sound-system.html#v=solo_5_black"
+        },
+        {
+            "No": "092",
+            "Brand": "BOSE",
+            "Model": "Smart Sounderbar 300",
+            "Product": "電視音響系統",
+            "Price": "$15,000",
+            "figure": "fig/SST-3312-KTV-92.jpeg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.bose.tw/zh_tw/products/speakers/home_theater/bose-solo-5-tv-sound-system.html#v=solo_5_black"
+        },
+        {
+            "No": "093",
+            "Brand": "BOSE",
+            "Model": "Sounderbar 700",
+            "Product": "電視音響系統",
+            "Price": "$28,999",
+            "figure": "fig/SST-3312-KTV-93.jpeg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.bose.tw/zh_tw/products/speakers/home_theater/bose-solo-5-tv-sound-system.html#v=solo_5_black"
+        },
+        {
+            "No": "101",
+            "Brand": "JBL",
+            "Model": "Bar Studio",
+            "Product": "藍芽4.2杜比音效聲霸喇叭",
+            "figure": "fig/SST-3312-KTV-101.jpg",
+            "Category": "SounderBar",
+            "WebSite": "https://www.jbl.com.tw/soundbars/JBL+BAR+STUDIO.html"
         }
     ]
