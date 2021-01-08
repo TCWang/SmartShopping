@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/SST-01-Template02.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>智慧採購 - 寬頻上網</title>
+  <meta name="description" content="Smart Purchasing">
+  <!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+		智慧採購
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+<!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user">用戶登入</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-110-MyInformation.html">個人資訊</a>
+              <a class="dropdown-item" href="../SST-120-SignIn.html">登入註冊</a>
+              <a class="dropdown-item" href="../SST-130-Message.html">用戶留言</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-atom">電子家電</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-210-Thermomix.html">聰明料理機</a>
+              <a class="dropdown-item" href="../SST-210-Thermomix.html">多功能烤箱</a>
+              <a class="dropdown-item" href="../SST-230-GasFryer.html">氣炸鍋</a>
+              <a class="dropdown-item" href="../SST-240-CoffeeMachine.html">咖啡沖泡</a>
+            </div>
+          </li>
+-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-broadcast-tower">通訊網路</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SST-310-BroadbandNetwork.html">寬頻網路</a>
+<!--
+              <a class="dropdown-item" href="../SST-320-MObileCommunication.html">行動通訊</a>
+-->
+              <a class="dropdown-item" href="SST-330-VideoAudio.html">影音視頻</a>
+<!--
+              <a class="dropdown-item" href="../SST-340-SmartHome.html">智慧家庭</a>
+-->
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-shopping-cart">居家生活</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="SST-410-SportMassage.html">運動按摩</a>
+              <a class="dropdown-item" href="SST-420-HealthCare.html">健康醫療</a>
+<!--
+              <a class="dropdown-item" href="../SST-430-KitchenWare.html">廚房用品</a>
+              <a class="dropdown-item" href="../SST-440-BeddingBathroom.html">寢具衛浴</a>
+			  <a class="dropdown-item" href="../SST-450-ClothesShoes.html">衣服鞋箱</a>
+-->
+            </div>
+<!--
+          </li>
+		  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-money-check-alt">流行精品</i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../SST-510-Cosmetic.html">化妝洗護</a>
+
+            </div>
+          </li>
+-->
+
+        </ul>
+
+      </div>
+    </nav>
+
+
+    <!-- Jumbotron-->
+
+    <!-- InstanceBeginEditable name="jumbotron description " -->
+	<div class="jumbotron jumbotron-fluid jumbotron-bg31 d-flex align-items-end">
+        <div class="container">
+            <div class="bg-lighter p-1" style="width:300px">
+              <h4 class="text-white" >寬頻上網</h4>
+              <p class="lead text-white">建立家庭高速飆網環境</p>
+            </div>
+		</div>
+    </div>
+    <!-- InstanceEndEditable --> 
+
+    <!-- InstanceBeginEditable name="main_editable" -->
+<div  class="container-fluid ">
+		<div class="row">
+			<h1 id="Header1">寬頻上網</h1>
+		</div>
+		<div class="row mx-1 ">
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2">
+				<div class="list-group" id="MenuList" role="tablist">
+					<a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">寬頻網路指南</a>
+					<a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">無線路由器指南</a>	
+					<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">網路設備匯總</a>					
+				</div>
+				<br>
+			</div>
+			<div class="col-12 col-sm-8 col-md-9 col-lg-10  border border-secondary rounded">
+				<div class="tab-content">
+
+					<div class="tab-pane active" id="Menu-B1" role="tabpanel">
+						<!-- Menu B1 -->
+						<h3>寬頻網路指南 </h3>
+						<div class="row">
+							<div class="col-md-12 col-lg-6">
+								<section>
+									<h5>網際網路服務供應商 ISP</h5>
+									 網際網路服務供應商ISP ，大致上具備幾種型態，包含家用光世代網路、社區共享網路、有線電視網路與電信行動網路。
+									目前社區，寬頻網路提供業者包含：
+									<ul>
+										<li> KingNet
+											<a href="https://top1.kingnet.net.tw/">今網寬頻</a> ／ 社區共享網路</li>
+										<li><a href="https://www.cht.com.tw/home/consumer/broadband/hinet/hinet-light">中華電信</a> / Hinet 光世代</li>										
+										<li>JGNet <a href="https://www.jgnet.tw/">宅急網</a> 社區寬頻 / 社區共享網路</li>
+										<li><a href="https://www.kbro.com.tw/K01/">凱擘大寬頻</a>  / 北桃園數位有線電視</li>
+									</ul>
+									如何選擇網路服務供應商：選擇網路服務須考慮，價格與網速外同時需注意連網的品質如速率穩定度，頻寬，延遲程度等。以下整理主要網路上對相關供應商的評論資料，僅供參考！
+									<br><br>並請參考：聯合新聞網 2020/08/25 
+									<a href="https://udn.com/news/story/7086/4808938">光纖寬頻、社區網路、第四台寬頻以及行動網路吃到飽 4種家用網路方案哪一種適合你？</a><br><br>
+									
+									<h5>中華電信 光世代網路</h5>
+									<ul>
+										<li>
+										連線品質: 中華電信是全台灣最大的網際網路服務供應商（ISP），憑藉著一開始就擁有眾多基礎建設的優勢，「穩定」一向是使用者最常反映的評價。
+										</li>
+										<li>
+										網路功能: 若與其他 ISP 服務互相比較，無論是中華電信 ADSL 或光世代，消費者幾乎都不會有任何網路功能上的限制，當線路與設備安裝完成後，民眾可以擁有近乎100%的存取權。基本上申裝 HiNet 光世代網路的消費者，都可以透過網頁操作，自助向 ISP 申請一組固定IP做為進階使用。
+										</li>
+										<li>
+										收費價格： 2020/06 牌告費率，需綁約2年
+											<table class="table table-striped table-sm table-responsive" style="width:80%">
+												<tr>
+													<th>申裝速率</th>
+													<th>每月金額</th>
+												</tr>
+												<tr>
+													<td>16M / 3M</td>
+													<td>$662</td>
+												</tr>
+												<tr>
+													<td>35M / 6M</td>
+													<td>$811</td>
+												</tr>
+												<tr>
+													<td>60M / 20M</td>
+													<td>$859</td>
+												</tr>		
+												<tr>
+													<td>100M / 40M</td>
+													<td>$920</td>
+												</tr>
+												<tr>
+													<td>300M / 100M</td>
+													<td>$1,399</td>
+												</tr>
+												<tr>
+													<td>500M / 250M</td>
+													<td>$1,799</td>
+												</tr>	
+												<tr>
+													<td>1G / 600M</td>
+													<td>$2,399</td>
+												</tr>												
+											</table>
+										</li>
+									</ul>
+		
+								
+								</section>
+							</div>
+							<div class="col-md-12 col-lg-6">
+								<section>
+								<h5>KingNet 今網寬頻</h5>
+									社區網路：本社區是公寓大廈社區，並且具備管理委員會，因此擁有「社區網路」型態的 ISP 服務可以選擇。
+									<ul>
+										<li>
+											連線品質：社區網路的營運公司都是「第二類電信業者」，通常沒有自己固網建設，所以除了社區內部網路的佈線跟設備安裝之外，對外連線都必須承租第一類業者，如中華電信、台灣固網等線路。主要硬體投資皆在最後一哩跟頻寬管理設備。社區網路能否擁有良好的連線品質，第一取決於營運業者的頻寬管理能力，第二則是住戶的公德心與對合理使用的界定。
+										</li>
+										<li>
+											網路功能: 由於社區網路是採取共享形式經營，所以當業者為社區接入第一類電信業者的線路後，就會透過 NAT 方式，建立起龐大的「內部網路」，將所有住戶的連線收納管理，這就造成了終端使用者對外網路功能的重重障礙。以社區大樓來說，業者通常會於建築物的電信機房內，安裝商用級路由器配合軟體與 NAT 方式，來管理所有申裝住戶的網路連線。簡而言之，我們可以把社區網路業者想像成一個擁有 NAT 功能的巨大網路IP分享器，每個住戶都是這個分享器的客戶端，用戶既無法於裝置上直接獲取實體IP，內外之間的連線溝通，也都必須先經過業者的 NAT 才行。社區網路通常只會配發給使用者一組內網IP位置，若要與外網連接，皆需要透過業者建置的 NAT。
+											
+										</li>
+										<li>
+											收費價格： 光纖上網，保障個人頻寬 200M
+											<table class="table table-striped table-sm table-responsive" style="width:80%">
+												<tr>
+													<th>方案</th>
+													<th>說明</th>
+													<th>每月平均</th>
+												</tr>
+												<tr>
+													<td>方案 A</td>
+													<td>
+													預繳 6,000元, 使用 14個月
+													</td>
+													<td>$428</td>
+												</tr>
+												<tr>
+													<td>方案 B</td>
+													<td>
+													預繳 8,900元, 使用 24個月
+													</td>
+													<td>$370</td>
+												</tr>
+														
+											</table>	
+											
+										</li>
+										<li>
+											申裝環境：許多社區網路業者通常也不收「電路費」、「裝機費」或「設定費」，因為這些都已經包含在他們為社區大樓佈線的初期投資成本中，理論上透過持續性的月租費就可以得到回收。較新的社區大樓基本上都已經規劃好弱電箱，對於業者來說佈線相當簡單，自然也會少收相關費用當成優惠
+											
+										   	攜約跳槽補償：最高 120 天免費上網，鑑賞期 10 天，不綁約，沒有違約金。
+										</li>
+
+									</ul>
+									
+								<h5>凱擘大寬頻 / 北桃園數位有線電視</h5>
+									由第四台有線電視轉型的網路服務商。
+											<table class="table table-striped table-sm table-responsive" style="width:80%">
+												<tr>
+													<th>申裝速率</th>
+													<th>每月金額</th>
+												</tr>
+												<tr>
+													<td>24M</td>
+													<td>$449</td>
+												</tr>
+												<tr>
+													<td>60M</td>
+													<td>$549</td>
+												</tr>
+												<tr>
+													<td>120M</td>
+													<td>$699</td>
+												</tr>		
+												<tr>
+													<td>200M</td>
+													<td>$749</td>
+												</tr>
+												<tr>
+													<td>500M</td>
+													<td>$899</td>
+												</tr>
+	
+												<tr>
+													<td>1G</td>
+													<td>$999</td>
+												</tr>												
+											</table>									
+																	
+								</section>
+							</div>							
+						</div>
+						
+					</div>
+					
+					<div class="tab-pane" id="Menu-B2" role="tabpanel">
+						<!-- Menu B4 -->
+						<h3>無線路由器指南</h3>
+						<div class="row">
+							<div class="col-md-12 col-lg-6">
+
+						
+							
+							</div>
+							<div class="col-md-12 col-lg-6">
+								
+								
+							</div>							
+						</div>
+
+					</div>					
+
+
+					<div class="tab-pane" id="Menu-B4" role="tabpanel">
+						<!-- Menu B2 -->
+						<h3>網路設備匯總</h3>
+						<section>
+							<div class="container-fluid" id="app1">
+								<div class="row">
+									<div class="container-fluid" id="app">
+										<div class="alert alert-info" role="alert">
+
+											<div class="row">
+												<div class="col">
+													<div class="form-group">
+														<select class="form-control" v-model='section'
+															id="exampleFormControlSelect1">
+															<option v-for="section in sections">{{ section }}
+															</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-6">
+													<h5 class="text-center"> 選擇類別 </h5>
+												</div>
+
+											</div>
+										</div>
+										<p id="color-highlight">注意：點擊下面圖片,進入廠商網站</p>
+										<div class="row" v-for="posts in results">
+											<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">
+														{{ post.Brand }} - {{post.Model }}
+													</div>
+													<div class="card-body">
+														<p class="card-text">
+															<img v-bind:src="post.figure" class="img-fluid" style="height:200px">
+
+														</p>
+														<dl>
+															<a v-bind:href="post.WebSite">
+																{{post.Product}} - {{post.Model}} 
+															</a>															
+															<dd></dd>
+															<dd>價格：{{post.Price}} </dd>
+														</dl>
+														特性：<br>
+														<div v-html="post.Feature"></div> <br>
+														說明：<br>
+														<div v-html="post.Description"></div>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>								
+						</section>
+
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+    <!-- InstanceEndEditable -->
+    <footer id="main_footer">
+		<p id="p-footer">
+				Update footer here  &copy; TCW Smart Lift
+		</p>
+	</footer>
+	
+	<!-- Vue 的 CDN -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+    <!-- Bootstrap 4 JavaScript 的 CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <!-- Axios 的 CDN -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- InstanceBeginEditable name="vue control program" -->
+ 	<script>
+		// Javascript to enable link to tab
+		var url = document.location.toString();
+		if (url.match('#')) {
+			$('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+		}
+
+		// Change hash for page-reload
+		$('.list-group a').on('shown.bs.tab', function (e) {
+			window.location.hash = e.target.hash;
+		})
+	</script>	
+	
+	<script>
+		const posts = []
+		const SECTIONS_TW = "TVBox, SounderBar"
+
+		new Vue({
+			el: '#app1',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_TW.split(', '),
+				section: 'TVBox'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('file/SST-3311-TVBox.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+
+	</script>
+    <!-- InstanceEndEditable -->
+</body>
+
+<!-- InstanceEnd --></html>

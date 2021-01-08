@@ -31,7 +31,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">
-
+		智慧採購
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-
+<!--
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -52,6 +52,7 @@
               <a class="dropdown-item" href="../SST-130-Message.html">用戶留言</a>
             </div>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -64,6 +65,7 @@
               <a class="dropdown-item" href="../SST-240-CoffeeMachine.html">咖啡沖泡</a>
             </div>
           </li>
+-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -71,9 +73,13 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="../SST-310-BroadbandNetwork.html">寬頻網路</a>
+<!--
               <a class="dropdown-item" href="../SST-320-MObileCommunication.html">行動通訊</a>
+-->
               <a class="dropdown-item" href="../SST-330-VideoAudio.html">影音視頻</a>
+<!--
               <a class="dropdown-item" href="../SST-340-SmartHome.html">智慧家庭</a>
+-->
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -84,10 +90,13 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="../SST-410-SportMassage.html">運動按摩</a>
               <a class="dropdown-item" href="../SST-420-HealthCare.html">健康醫療</a>
+<!--
               <a class="dropdown-item" href="../SST-430-KitchenWare.html">廚房用品</a>
               <a class="dropdown-item" href="../SST-440-BeddingBathroom.html">寢具衛浴</a>
 			  <a class="dropdown-item" href="../SST-450-ClothesShoes.html">衣服鞋箱</a>
+-->
             </div>
+<!--
           </li>
 		  <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -99,12 +108,10 @@
 
             </div>
           </li>
+-->
 
         </ul>
-        <form class="form-inline my-1 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
       </div>
     </nav>
 

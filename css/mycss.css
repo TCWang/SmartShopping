@@ -161,6 +161,12 @@ div.fixed {
 	background-position: center center;
 	min-height: 300px
 }
+.jumbotron-bg31 {
+	background-image: url("../fig/SST-1011-Banner-07.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
 .jumbotron-bg33 {
 	background-image: url("../fig/SST-1011-Banner-06.jpg");
 	background-size: cover;
