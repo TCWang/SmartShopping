@@ -219,10 +219,10 @@
 							<div class="col-md-12 col-lg-6">
 								<section>
 								<h5>KingNet 今網寬頻</h5>
-									社區網路：本社區是公寓大廈社區，並且具備管理委員會，因此擁有「社區網路」型態的 ISP 服務可以選擇。
+									社區網路：本社區是公寓大廈社區，並且具備管理委員會，因此擁有「社區網路」型態的 ISP 服務是最具優勢的選擇。
 									<ul>
 										<li>
-											連線品質：社區網路的營運公司都是「第二類電信業者」，通常沒有自己固網建設，所以除了社區內部網路的佈線跟設備安裝之外，對外連線都必須承租第一類業者，如中華電信、台灣固網等線路。主要硬體投資皆在最後一哩跟頻寬管理設備。社區網路能否擁有良好的連線品質，第一取決於營運業者的頻寬管理能力，第二則是住戶的公德心與對合理使用的界定。
+											連線品質：社區網路的營運公司都是「第二類電信業者」，通常沒有自己固網建設，所以除了社區內部網路的佈線跟設備安裝之外，對外連線都必須承租第一類業者，如中華電信、台灣固網等線路。主要硬體投資皆在最後一哩跟頻寬管理設備。社區網路能否擁有良好的連線品質，第一取決於營運業者的頻寬管理能力，<mark>第二則是頻寬是否能保障個別住戶都能分配到標示的頻寬</mark>。
 										</li>
 										<li>
 											網路功能: 由於社區網路是採取共享形式經營，所以當業者為社區接入第一類電信業者的線路後，就會透過 NAT 方式，建立起龐大的「內部網路」，將所有住戶的連線收納管理，這就造成了終端使用者對外網路功能的重重障礙。以社區大樓來說，業者通常會於建築物的電信機房內，安裝商用級路由器配合軟體與 NAT 方式，來管理所有申裝住戶的網路連線。簡而言之，我們可以把社區網路業者想像成一個擁有 NAT 功能的巨大網路IP分享器，每個住戶都是這個分享器的客戶端，用戶既無法於裝置上直接獲取實體IP，內外之間的連線溝通，也都必須先經過業者的 NAT 才行。社區網路通常只會配發給使用者一組內網IP位置，若要與外網連接，皆需要透過業者建置的 NAT。
@@ -263,7 +263,9 @@
 									</ul>
 									
 								<h5>凱擘大寬頻 / 北桃園數位有線電視</h5>
-									由第四台有線電視轉型的網路服務商。
+									由第四台有線電視轉型的網路服務商。因為第四台的服務已經逐漸被淘汰, 因此需要參考 
+										<a href="https://tcwang.github.io/SmartShopping/SST-330-VideoAudio.html">智慧採購 - 影音視頻</a>
+									 相關說明, 採購適當的電視盒才是較佳選擇。
 											<table class="table table-striped table-sm table-responsive" style="width:80%">
 												<tr>
 													<th>申裝速率</th>
@@ -307,12 +309,55 @@
 						<h3>無線路由器指南</h3>
 						<div class="row">
 							<div class="col-md-12 col-lg-6">
+								<h5>選購要點</h5>
+								在挑選無線路由器的機型前，先確認使用的「網路連線速率」以及「房屋構造」。並了解下面特性：<br>
+								
+								<ul>
+									<li>「2.4GHz」與「5GHz」頻段的區別：
+										<ul>
+											<li>2.4GHz 的穿透力高且覆蓋範圍較廣，不容易受到障礙物的影響，因此在長距離傳輸時相對穩定。但有許多裝置如電磁爐、藍牙等都是使用此頻段，如果住家位置離鬧區比較近，多種不同裝置發射出的電波便會干擾無線訊號，導致連線狀況不穩定。</li>
+											<li>5GHz 容易受到障礙物影響且覆蓋區域較小，不過由於使用同樣頻段的裝置不多，而相對不容易受到干擾。加上在範圍內的傳輸速度比2.4GHz 快上許多，如果住家是公寓式建築或平房、坪數不大的話，便相當適合選用5GHz 作為居家的無線網路。</li>
+										</ul>										
+										
+									</li>
+									<li>
+										WiFi 規格 
+										<ul>
+											<li>802.11ac: 目前市面上的無線路由器規格多為「IEEE 802.11ac」，其表示可透過同時連接多條頻寬，達到與有線網路相同的速度，但由於依然有少數裝置不支援此規格，因此多數商品會向下兼容 a、b、g、n 等較早期的規格。而支援這些的機型部分僅有2.4GHz</li>
+											<li>802.11ax: 近期更有最新的11ax 技術規格出現，其可以同時運用2.4GHz 及5GHz 達到超高速傳輸的效果，但目前支援的裝置並不多，因此建議還是待普及後再購買為佳。</li>
+										</ul>
+										
+									</li>
+									<li>多台裝置連線需求，選擇「MU-MIMO」: 「MU-MIMO」指「多輸入」及「多輸出」，即表示可經由複數天線獨立運作讓傳輸作業更加有彈性，因此若裝置支援，便可同時調用多支天線的頻寬提升傳輸速度，或提供頻寬給不同的裝置，進而維持穩定且品質良好的無線訊號。
+									</li>
+									<li>
+									網路硬碟的功能（USB 連接埠）: 有些無線路由器會有 USB連接埠，只要連接隨身碟或外接硬碟就能利用區域網路讀取檔案，讓家中所有裝置分享資料。只是此規格會受到晶片讀取速度的限制，較便宜的款式在下載或讀取資料時便會相對緩慢，這部分就端看使用者的需求了。
+									</li>
+								</ul>
 
-						
+								
 							
 							</div>
-							<div class="col-md-12 col-lg-6">
-								
+							<div id="app1" class="col-md-12 col-lg-6">
+							<h5>主要無線分享器</h5>
+							  <table class="table table-striped table-sm table-hover" style="width:100%">
+								<thead style="background-color:lightblue">
+								  <tr class="text-left">
+									<th>產品</th>
+									<th>單價</th>
+									<th>速率</th>
+									<th>規格</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr v-for="post in posts">
+									<td>{{ post.Supplier }} - {{post.Product}} </td>
+									<td>{{ post.Price }}</td>
+									<td>{{ post.Speed }}</td>
+									<td>{{ post.Spec }}, {{post.Mimo}}, {{post.Usb}} </td>
+								  </tr>
+								</tbody>
+							  </table>								
 								
 							</div>							
 						</div>
@@ -324,7 +369,7 @@
 						<!-- Menu B2 -->
 						<h3>網路設備匯總</h3>
 						<section>
-							<div class="container-fluid" id="app1">
+							<div class="container-fluid" id="app2">
 								<div class="row">
 									<div class="container-fluid" id="app">
 										<div class="alert alert-info" role="alert">
@@ -350,22 +395,24 @@
 											<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
 												<div class="card">
 													<div class="card-header">
-														{{ post.Brand }} - {{post.Model }}
+														{{ post.Supplier }} - {{post.Product }}
 													</div>
 													<div class="card-body">
 														<p class="card-text">
-															<img v-bind:src="post.figure" class="img-fluid" style="height:200px">
+															<img v-bind:src="post.Figure" class="img-fluid" style="height:200px">
 
 														</p>
 														<dl>
-															<a v-bind:href="post.WebSite">
-																{{post.Product}} - {{post.Model}} 
+															<a v-bind:href="post.Link">
+																{{post.Supplier}} - {{post.Product}} 
 															</a>															
-															<dd></dd>
 															<dd>價格：{{post.Price}} </dd>
+															<dd>規格：{{post.Spec}} </dd>
+															<dd>速率：{{post.Speed}} </dd>
+															<dd>多工：{{post.Mimo}} </dd>
+															<dd>接口：{{post.Usb}} </dd>
 														</dl>
-														特性：<br>
-														<div v-html="post.Feature"></div> <br>
+
 														說明：<br>
 														<div v-html="post.Description"></div>
 														
@@ -427,7 +474,8 @@
 	
 	<script>
 		const posts = []
-		const SECTIONS_TW = "TVBox, SounderBar"
+		const SECTIONS_TW = "無線分享器"
+		const SECTIONS_TW2 = "無線分享器"
 
 		new Vue({
 			el: '#app1',
@@ -435,7 +483,7 @@
 				posts,
 				// results: [],
 				sections: SECTIONS_TW.split(', '),
-				section: 'TVBox'
+				section: '無線分享器'
 			},
 			filter: {
 				formatted(value) {
@@ -457,7 +505,7 @@
 			},
 
 			mounted() {
-				axios.get('file/SST-3311-TVBox.json').then((response) => {
+				axios.get('file/SST-3101-Wifi.json').then((response) => {
 					this.posts = response.data;
 					this.getPostsByCategory(this.section)
 				}).catch(error => { console.log(error); });
@@ -465,6 +513,41 @@
 
 		});
 
+		new Vue({
+			el: '#app2',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_TW2.split(', '),
+				section: '無線分享器'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('file/SST-3101-Wifi.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
 
 	</script>
     <!-- InstanceEndEditable -->
