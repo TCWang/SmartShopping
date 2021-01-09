@@ -54,5 +54,19 @@
             "Figure": "fig/SST-3101-Wifi-04.jpg",
             "Description": "此款在無線路由器中算較高階的款式，Netgear RAX80 夜鷹 AX6000 8串流 WiFi 6智能路由器(分享器)\r\n支援iPhone 11全系列，WiFi 6無線傳輸, \r\n支援三星S10全系列，WiFi 6無線傳輸,\r\n優質5G WiFi 訊號適合坪數:20坪~40坪，支援100台設備連線使用,\r\n\r\n<br><br>\r\n而為了讓所有裝置都能穩定且快速地上網，其內建了 Qos 動態頻寬管理系統，可偵測用戶使用的流量大小並妥善分配比例，在觀看高畫質影片及玩遊戲時便能降低延遲的狀況，享受不卡頓的極速快感。",
             "Link": "https://www.netgearstore.com.tw/products/rax80"
+        },
+        {
+            "No": "05",
+            "Category": "無線分享器",
+            "Product": "Deco M4 AC1200 Mesh",
+            "Supplier": "TP-Link",
+            "Price": "$1,500",
+            "Spec": "IEEE 801.11/a/b/g/n/ac",
+            "Speed": "867 Mbps",
+            "Mimo": "MU-MIMO",
+            "Usb": "-",
+            "Figure": "fig/SST-3101-Wifi-05.jpg",
+            "Description": "Deco提供無縫的全家Wi-Fi覆蓋 — 讓您無須再煩惱訊號死角。\r\n先進的Mesh技術讓每台Deco整合成一個同一無線網路名稱，並讓您在家中移動時達到設備無縫漫遊，再也不用斷線重連網路。\r\nDeco M4兩入組提供約106坪Wi-Fi覆蓋範圍，並能依您的需求擴增Deco來擴大覆蓋範圍。\r\n能與一般的網路供應商(ISP)共同運作，並提供高達1167Mbps穩定而快速的無線連接。<br><br>\r\nDeco可處理大流量網路使用，為高達100個設備提供無延遲的網路連接。\r\n您可為每一位家庭成員建立獨特的個人檔案，限制上網時間及可用網站。\r\n使用Deco App，帶您一步一步設定，輕鬆又方便。\r\n目前有 3入/2入 兩種不同包裝。<br><br>\r\n本項為今網寬頻 可加購產品",
+            "Link": "https://www.tp-link.com/tw/home-networking/deco/deco-m4/"
         }
     ]
